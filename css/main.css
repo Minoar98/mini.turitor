@@ -1,0 +1,856 @@
+/* ====================================================
+  Template Name: WordPress Fair HTML5 landing page
+  Template URI: http://dreamroadtech.com/templates/morix-preview/
+  Description: WordPress Fair HTML5 landing page
+  Author: Abc It Park
+  Author URI: http://www.abcitpark.com
+  version: 1.0
+==================================================== */
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* ..................................
+ 01. Template Default CSS 
+.................................. */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  line-height: 32px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+li a {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+/* ====================================================
+   Author's custom styles
+   ==================================================== */
+
+/* ..................................
+ 02. header css 
+.................................. */
+header {
+  padding: 12px 0;
+}
+
+header nav ul {
+  color: #333333;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+header ul li a {
+  color: #ff0000;
+  margin-right: 10px;
+}
+
+header .login-btn {
+  background-color: #F9393A;
+  color: #fff;
+  padding: 7px 20px;
+  font-weight: 700;
+  font: size 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ..................................
+ 03. home CSS 
+.................................. */
+.home {
+  background-image: url(../img/slider/slider_image3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 170px 0;
+  position: relative;
+  z-index: 1;
+}
+
+
+.home:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .7;
+  background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9));
+}
+
+.home span {
+  color: #f5b016;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+}
+header.fixed-top.menu-top-bg {
+  background: green;
+  padding: 5px 0px;
+  transition: .5s;
+}
+a.nav-link:active {
+  color: red;
+  font-weight: 900;
+  font-size: 30px;
+  transition: .6;
+}
+.menu-top-bg .nav-link{
+  color:yellow;
+}
+
+.home h1 {
+  color: #fff;
+  font-size: 65px;
+  line-height: 70px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.home p {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.section-btn {
+  color: #fff;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.section-btn i {
+  margin-right: 5px;
+}
+
+.view-course {
+  background: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+}
+
+.start-trial {
+  background: linear-gradient(-320deg, #F5B016 0%, #FF8800 100%);
+
+}
+
+/* ..................................
+ 04. sponser CSS 
+.................................. */
+.sponser {
+  background-color: #F2F7fC;
+  padding: 100px 0;
+}
+
+/* ..................................
+ 04. feature CSS 
+.................................. */
+.feature {
+  padding: 100px 0;
+}
+
+.feature-item {
+  background-image: url(../img/feature_bg.png);
+  height: 300px;
+  padding: 40px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.feature-item h5 {
+  font-size: 22px;
+  padding: 20px 0 10px 0;
+}
+
+.feature-item-1 {
+  background-color: #0150E0;
+}
+
+.feature-item-2 {
+  background-color: #0ACC86;
+}
+
+.feature-item-3 {
+  background-color: #F5B016;
+}
+
+.feature-item-4 {
+  background-color: #F52122;
+}
+
+
+/* ..................................
+ 05. course CSS 
+.................................. */
+.section-title {
+  text-align: center;
+}
+
+.section-title span {
+  color: #f5b016;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.section-title h2 {
+  color: #333333;
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-title p {
+  color: #555555;
+}
+
+.course-item {}
+
+.course .course-item img {
+  height: 230px;
+  width: 359px;
+  margin-bottom: -7px;
+}
+
+.course-item .inner-text {
+  padding: 0 30px 30px 30px;
+}
+
+.catagory-span {
+  padding: 7px 20px;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.inner-text h4 {
+  margin: 25px 0;
+}
+
+.inner-text ul li:first-child {
+  color: #f5b016;
+  margin-right: 8px;
+}
+
+inner-text ul li:last-child {
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 55px;
+}
+
+.catagory-1 {
+  background-color: #7665FF;
+}
+
+.catagory-2 {
+  background-color: #FD29C5;
+}
+
+.catagory-3 {
+  background-color: #F5B016;
+}
+
+.catagory-4 {
+  background-color: #3478F6;
+}
+
+.catagory-5 {
+  background-color: #F20F10;
+}
+
+.catagory-6 {
+  background-color: #0ACC86;
+}
+
+/* ..................................
+ 06. funfact CSS 
+.................................. */
+.call-to-action {
+  background: #7665FF;
+  padding: 120px 0 145px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.call-to-action:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/funfact_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.call-to-action h2 {
+  font-size: 48px;
+  color: #fff;
+
+}
+
+.call-to-action p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin: 40px 0 40px 0;
+}
+
+.call-to-action a {
+  margin: 0 8px;
+}
+
+.funfact {
+  margin-top: -70px;
+  position: relative;
+  z-index: 2;
+}
+
+.funfact-area {
+  background: linear-gradient(7deg, #0ACC86 0%, #00C864 100%);
+  color: #fff;
+  padding: 45px 15px 25px 15px;
+  border-radius: 5px;
+}
+
+.funfact-item span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.funfact-item p {
+  font-size: 16px;
+}
+
+.funfact-btn i {
+  margin-right: 5px;
+}
+
+.funfact-btn {
+  color: #fff;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.start-trial {
+  background-color: #0ACC86;
+}
+
+.view-course {
+  background: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+}
+
+/* ..................................
+ 07. Testimonial CSS 
+.................................. */
+.section-title h5 {
+  color: #f5b016;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.section-title h2 {
+  color: #333333;
+  font-size: 48px;
+  line-height: 63px;
+  font-weight: 700;
+}
+p {
+  line-height: 26px;
+  color: #343434;
+}
+
+.testimonial .section-title{
+  text-align: left;
+}
+.testimonial .single-slide{
+  text-align: center;
+  padding:0 45px;
+  box-shadow: 0 7px 15px 0 rgba(0,0,0,.05);
+  margin-bottom: 100px;
+}
+
+.bo-1{
+  border-top:5px solid #0ACC86;
+}
+
+.bo-2{
+  border-top:5px solid #3478F6;
+}
+
+.bo-3{
+  border-top:5px solid #FA4142;
+}
+
+.single-slide .review {
+  padding-top: 50px;
+}
+.single-slide .review i{
+  font-size: 16px;
+  color:#FFCC00;
+}
+.single-slide .review-content h4{
+  color:#333333;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  padding:20px 0;
+}
+.single-slide .review-content p{
+  color:#555555;
+  font-family: Rubik;
+  font-size:15px;
+}
+.author .author-name{
+  font-size: 18px;
+}
+.author .author-des{
+  color:rgba(0,0,0,.5);
+}
+.author{
+  padding:20px 0;
+  padding-bottom: 50px;
+  border-top: 1px solid #CBCDDA;
+  position: relative;
+}
+.author-details{
+  margin:20px 0;
+}
+.author-thumb{
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom:-15%;
+  margin:0 auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 100%;
+}
+.author-thumb img{
+  display: inline-block;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:#1E67ED;
+    padding:20px;
+}
+.prevnextbtn{
+  position: relative;
+  bottom: 70px;
+}
+.previous{
+  color:#FFFFFF;
+  background: rgba(198,221,255,.6);
+  padding:15px 23px;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.previous:hover,.next:hover{
+  color:#FFFFFF;
+  background-image: linear-gradient(240deg,#004FE1 0%,#3478F6 100%);
+}
+.next{
+  color:#FFFFFF;
+  background-image: linear-gradient(240deg,#004FE1 0%,#3478F6 100%);
+  padding:15px 23px;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+
+/* 09. register section css
+-----------------------------
+*/
+.register{
+  padding-bottom: 100px;
+}
+.register h3{
+  color: #333333;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.business .course-btn{
+  background-image: linear-gradient(240deg,#FA4142 0%,#F20F10 100%);
+}
+.business .course-btn:hover{
+  background-image: linear-gradient(240deg,#F20F10 0%,#FA4142 100%);
+}
+.instructor-register-are{
+  padding:0 55px;
+}
+.business{
+  padding:0 55px;
+  border-left: 1px solid #CBCDDA;
+}
+/* 10. register section css
+-----------------------------
+*/
+.newsroom{
+  background-image:url("../img/news_bg.png");
+  background-color: #F7F9FB;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding:120px 0 130px 0;
+}
+.newsroom:before{
+  content: "";
+  position: absolute;
+  right:40px;
+  top:60px;
+  background: url("../img/pattern1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 100%;
+  height:100%;
+  transition: top .4s linear, right .4s linear;
+}
+.newsroom:after{
+  content: "";
+  position: absolute;
+  bottom:10px;
+  background: url("../img/pattern2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 100%;
+  height:100%;
+  transition: bottom .4s linear;
+}
+.newsroom:hover:before{
+  top:40px;
+  right:100px;
+  transition: top .4s linear, right .4s linear;
+}
+.newsroom:hover:after{
+  bottom:80px;
+  transition: bottom .4s linear;
+}
+
+/* 11. blog section css
+-----------------------------
+*/
+.blog{
+  position: relative;
+  bottom:130px;
+}
+.single-blog{
+  padding-bottom: 35px;
+  box-shadow: 9.899px 9.899px 30px 0 rgba(0,0,0,.1);
+}
+.single-blog .outer-thumb{
+  overflow: hidden;
+}
+.single-blog:hover .blog-thumb{
+  transform: scale(1.1) rotate(3deg);
+  transition: all 0.4s ease;
+}
+.single-blog .blog-thumb{
+  width: 100%;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor:pointer;
+  transition: all 0.4s ease;
+}
+.blog-thumb-1{
+  background:url('../img/blog/blog_image1-750x465.jpg'); 
+}
+
+.blog-thumb-2{
+  background:url('../img/blog/blog_image2-750x465.jpg');
+}
+
+.blog-thumb-3{
+  background:url('../img/blog/blog_image3-750x465.jpg');
+}
+.blog-details{
+  padding:20px 40px 20px;
+}
+.blog-details ul{
+  overflow: hidden;
+}
+.blog-details li{
+  color:#333333;
+  font-size: 14px;
+  padding:10px 30px 10px 0;
+  display: flex;
+  align-items: center;
+  float:left;
+  overflow: hidden;
+}
+.blog-details li i{
+  font-size: 5px;
+  padding-right: 7px;
+}
+.blog-details .date i{
+  color:#3478F6;
+}
+.blog-details .blog-cat i{
+  color:#0ACC86;
+}
+.blog-details .blog-title h4{
+  color:#020101;
+  padding:15px 0;
+  line-height: 32px;
+}
+.single-blog:hover .blog-details .blog-title h4{
+  color:#F20F10;
+}
+.blog-details-link{
+  display: inline-block;
+}
+.blog-details-link i{
+  color:#333;
+  text-align: center;
+  font-size: 10px;
+  line-height: 10px;
+  border:1px solid #333;
+  border-radius: 50%;
+  padding:2px;
+}
+.blog-details-link a{
+  color:#333;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 2px solid #333;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+.blog-details-link:hover a
+{
+  color:#F20F10;
+  border:transparent;
+}
+.blog-details-link:hover i{
+  color:#F20F10;
+  border-color:#F20F10;
+}
+/* 12. newsletter section css
+-----------------------------
+*/
+.newsletter .section-title h2{
+  font-size: 36px;
+  line-height: 43px;
+}
+.right{
+  margin-left: 30px;
+}
+.newsform{
+  background: #FA9B0A;
+  padding:30px;
+}
+.newsform h5{
+  color:#FFFFFF;
+  font-size:16px;
+  font-weight: 400;
+}
+.newsform form{
+  padding: 15px 0;
+}
+.newsform input{
+  width: 260px;
+}
+.newsform input::placeholder{
+  font-size: 14px;
+}
+.newsform button{
+  color:#FFFFFF;
+  background: #296FF2;
+  padding:10px 30px;
+  margin-left:15px;
+  border:1px solid #296FF2;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size:15px;
+}
+.newsform button i{
+  margin-right: 5px;
+}
+.newsform .form-footer span{
+  color:#FFFFFF;
+  font-size: 12px;
+}
+
+/* 13. footer area css
+-----------------------------
+*/
+.footer{
+  background: #004FE1;
+  padding:115px 0 120px 0;
+  color:#FFFFFF;
+  background-image: url('../img/footer_bg.png');
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+.footer .footer-top{
+   padding-bottom: 40px;
+   border-bottom:1px solid rgba(255,255,255,.15);
+}
+.widget .widget-title h4{
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.widget .widget-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.widget .widget-title:before{
+  content:"";
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  width: 18px;
+  height: 3px;
+  background: #F5B016;
+}
+.widget .list li{
+  display: block;
+  padding:0 0 15px 25px;
+  position: relative;
+}
+.widget .list li:before{
+  content:"\f068";
+  position: absolute;
+  left:0;
+  top:13%;
+  font-family: 'Font awesome 5 free';
+  font-weight: 900;
+  color: #F5B016;
+  font-size:8px;
+  display: flex;
+}
+.social-icons li{
+  margin-right: 5px;
+}
+.social-icons li i{
+  width: 40px ;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  border:1px solid rgba(255,255,255,.2);
+  border-radius: 50%;
+  text-align: center;
+}
+.social-list{
+  margin-top:30px;
+}
+.social-icons li.facebook:hover{
+  background: #3B5998;
+  border-radius: 50%;
+}
+
+.social-icons li.twitter:hover{
+  background: #1DA1F2;
+  border-radius: 50%;
+}
+
+.social-icons li.instagram:hover{
+  background: #1DA1F2;
+  border-radius: 50%;
+}
+
+.social-icons li.linkedin:hover{
+  background: #0077B5;
+  border-radius: 50%;
+}
+.footer-bottom{
+  padding-top:35px;
+  margin:0 auto;
+}
+.footer-menu a{
+  padding-right: 20px;
+}
